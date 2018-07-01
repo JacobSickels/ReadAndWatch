@@ -1,11 +1,13 @@
 import * as React from "react";
 import Dashboard from './Dashboard';
 
-export class App extends React.Component {
+class App extends React.Component {
+
+
     render() {
         return (
-            <div>
-                <h1>Hello!</h1>
+            <div className="app">
+                <h1> App </h1>
                 <Dashboard />
             </div>
         );

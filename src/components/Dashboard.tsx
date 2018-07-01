@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 
 class Dashboard extends React.Component {
 
@@ -8,12 +8,14 @@ class Dashboard extends React.Component {
 
     render() {
         return (
-            <h3>
-                Dashboard and 2nd inner component
-                {
-                    this.jsxMethod()
-                }
-            </h3>
+            <div className="dashboard">
+                <h3>
+                    Dashboard Hello
+                    {
+                        this.jsxMethod()
+                    }
+                </h3>
+            </div>
         );
     }
 }
